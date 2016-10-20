@@ -40,7 +40,7 @@
     {
         __weak typeof(self) weaksekf = self;
         LSDBirthdayPickerView *bir = [LSDBirthdayPickerView pickerView];
-        [bir pickerViewResult:^(NSString *text, LSDBasePickerView *pickerView) {
+        [bir pickerViewResult:^(NSString *text, SSPickerView *pickerView) {
             weaksekf.showLabel.text = text;
         }];
     }
@@ -48,7 +48,7 @@
     {
         __weak typeof(self) weaksekf = self;
         LSDTimePickerView *time = [LSDTimePickerView pickerView];
-        [time pickerViewResult:^(NSString *text, LSDBasePickerView *pickerView) {
+        [time pickerViewResult:^(NSString *text, SSPickerView *pickerView) {
             weaksekf.showLabel.text = text;
         }];
     }

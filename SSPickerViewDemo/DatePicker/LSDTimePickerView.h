@@ -6,8 +6,8 @@
 //  Copyright © 2016年 lifesense. All rights reserved.
 //
 
-#import "LSDBasePickerView.h"
+#import "SSPickerView.h"
 
-@interface LSDTimePickerView : LSDBasePickerView
+@interface LSDTimePickerView : SSPickerView
 - (void)setCurrentTime:(NSString *)timeStirng;
 @end

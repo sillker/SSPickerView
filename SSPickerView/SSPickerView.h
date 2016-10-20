@@ -1,17 +1,17 @@
 //
-//  LSDBasePickerView.h
-//  LSDoctor
+//  SSPickerView.h
+//  SSPickerViewDemo
 //
-//  Created by sillker on 16/7/21.
-//  Copyright © 2016年 lifesense. All rights reserved.
+//  Created by sillker on 2016/10/20.
+//  Copyright © 2016年 sillker. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@class LSDBasePickerView;
-typedef void(^PickerViewResults) (NSString *text,LSDBasePickerView *pickerView);
+@class SSPickerView;
+typedef void(^PickerViewResults) (NSString *text,SSPickerView *pickerView);
 
-@protocol LSDBasePickerViewDelegate <NSObject>
+@protocol SSPickerViewDelegate <NSObject>
 @optional
 /**
  *  返回选择的结果
@@ -19,11 +19,11 @@ typedef void(^PickerViewResults) (NSString *text,LSDBasePickerView *pickerView);
  *  @param pickerView self
  *  @param content    string 或者 string-string...
  */
-- (void)basePickerView:(LSDBasePickerView *)pickerView Content:(NSString *)content;
+- (void)basePickerView:(SSPickerView *)pickerView Content:(NSString *)content;
 
 @end
 
-@interface LSDBasePickerView : UIView <UIPickerViewDelegate,UIPickerViewDataSource>
+@interface SSPickerView : UIView<UIPickerViewDelegate,UIPickerViewDataSource>
 /** 数据源 */
 @property (nonatomic,strong) NSMutableArray *componentArray;
 #pragma mark - 控件
@@ -45,7 +45,7 @@ typedef void(^PickerViewResults) (NSString *text,LSDBasePickerView *pickerView);
 @property (nonatomic,strong) NSArray <NSArray <NSString *>*>*contentes;
 /** block */
 @property (nonatomic, copy) PickerViewResults pickerViewBlock;
-@property (nonatomic,assign) id<LSDBasePickerViewDelegate> delegate;
+@property (nonatomic,assign) id<SSPickerViewDelegate> delegate;
 
 
 #pragma mark - 方法
@@ -58,4 +58,5 @@ typedef void(^PickerViewResults) (NSString *text,LSDBasePickerView *pickerView);
  *  pickerView回调
  */
 - (void)pickerViewResult:(PickerViewResults)pickerViewBlock;
+
 @end

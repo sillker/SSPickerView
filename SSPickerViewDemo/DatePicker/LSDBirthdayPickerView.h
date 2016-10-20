@@ -6,9 +6,9 @@
 //  Copyright © 2016年 lifesense. All rights reserved.
 //
 
-#import "LSDBasePickerView.h"
+#import "SSPickerView.h"
 
-@interface LSDBirthdayPickerView : LSDBasePickerView
+@interface LSDBirthdayPickerView : SSPickerView
 /**
  *  设置时间（格式为yyyy-MM-dd）
  */

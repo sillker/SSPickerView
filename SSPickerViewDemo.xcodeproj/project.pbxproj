@@ -13,24 +13,14 @@
 		56117F7F1DAE820700C3B530 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56117F7D1DAE820700C3B530 /* Main.storyboard */; };
 		56117F811DAE820700C3B530 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56117F801DAE820700C3B530 /* Assets.xcassets */; };
 		56117F841DAE820700C3B530 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56117F821DAE820700C3B530 /* LaunchScreen.storyboard */; };
-		56117F931DAE821700C3B530 /* LSDBasePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56117F8E1DAE821700C3B530 /* LSDBasePickerView.m */; };
-		56117F941DAE821700C3B530 /* LSDPickerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 56117F901DAE821700C3B530 /* LSDPickerButton.m */; };
-		56117F951DAE821700C3B530 /* LSDPickerContainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56117F921DAE821700C3B530 /* LSDPickerContainView.m */; };
 		56117F9B1DAE822800C3B530 /* LSDBirthdayPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56117F981DAE822800C3B530 /* LSDBirthdayPickerView.m */; };
 		56117F9C1DAE822800C3B530 /* LSDTimePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56117F9A1DAE822800C3B530 /* LSDTimePickerView.m */; };
-		56117FB71DAE829300C3B530 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 56117F9F1DAE829300C3B530 /* MASCompositeConstraint.m */; };
-		56117FB81DAE829300C3B530 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 56117FA21DAE829300C3B530 /* MASConstraint.m */; };
-		56117FB91DAE829300C3B530 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 56117FA41DAE829300C3B530 /* MASConstraintMaker.m */; };
-		56117FBA1DAE829300C3B530 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 56117FA61DAE829300C3B530 /* MASLayoutConstraint.m */; };
-		56117FBB1DAE829300C3B530 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 56117FAA1DAE829300C3B530 /* MASViewAttribute.m */; };
-		56117FBC1DAE829300C3B530 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 56117FAC1DAE829300C3B530 /* MASViewConstraint.m */; };
-		56117FBD1DAE829300C3B530 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 56117FAE1DAE829300C3B530 /* NSArray+MASAdditions.m */; };
-		56117FBE1DAE829300C3B530 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 56117FB11DAE829300C3B530 /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		56117FBF1DAE829300C3B530 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 56117FB31DAE829300C3B530 /* View+MASAdditions.m */; };
-		56117FC01DAE829300C3B530 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 56117FB61DAE829300C3B530 /* ViewController+MASAdditions.m */; };
+		56367AA91DB8C56F0095EC0B /* SSPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56367AA81DB8C56F0095EC0B /* SSPickerView.m */; };
+		8D5B5FD0F49EBF4A2712EF86 /* libPods-SSPickerViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55EEA3032FE5DB6DAEC63E33 /* libPods-SSPickerViewDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		55EEA3032FE5DB6DAEC63E33 /* libPods-SSPickerViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SSPickerViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56117F711DAE820700C3B530 /* SSPickerViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSPickerViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56117F751DAE820700C3B530 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		56117F771DAE820700C3B530 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -41,42 +31,14 @@
 		56117F801DAE820700C3B530 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56117F831DAE820700C3B530 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		56117F851DAE820700C3B530 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		56117F8C1DAE821700C3B530 /* LMPickerViewMasco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMPickerViewMasco.h; sourceTree = "<group>"; };
-		56117F8D1DAE821700C3B530 /* LSDBasePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDBasePickerView.h; sourceTree = "<group>"; };
-		56117F8E1DAE821700C3B530 /* LSDBasePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDBasePickerView.m; sourceTree = "<group>"; };
-		56117F8F1DAE821700C3B530 /* LSDPickerButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDPickerButton.h; sourceTree = "<group>"; };
-		56117F901DAE821700C3B530 /* LSDPickerButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDPickerButton.m; sourceTree = "<group>"; };
-		56117F911DAE821700C3B530 /* LSDPickerContainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDPickerContainView.h; sourceTree = "<group>"; };
-		56117F921DAE821700C3B530 /* LSDPickerContainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDPickerContainView.m; sourceTree = "<group>"; };
 		56117F971DAE822800C3B530 /* LSDBirthdayPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDBirthdayPickerView.h; sourceTree = "<group>"; };
 		56117F981DAE822800C3B530 /* LSDBirthdayPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDBirthdayPickerView.m; sourceTree = "<group>"; };
 		56117F991DAE822800C3B530 /* LSDTimePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDTimePickerView.h; sourceTree = "<group>"; };
 		56117F9A1DAE822800C3B530 /* LSDTimePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDTimePickerView.m; sourceTree = "<group>"; };
-		56117F9E1DAE829300C3B530 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
-		56117F9F1DAE829300C3B530 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
-		56117FA01DAE829300C3B530 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
-		56117FA11DAE829300C3B530 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
-		56117FA21DAE829300C3B530 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
-		56117FA31DAE829300C3B530 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
-		56117FA41DAE829300C3B530 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
-		56117FA51DAE829300C3B530 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
-		56117FA61DAE829300C3B530 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
-		56117FA71DAE829300C3B530 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
-		56117FA81DAE829300C3B530 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
-		56117FA91DAE829300C3B530 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
-		56117FAA1DAE829300C3B530 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
-		56117FAB1DAE829300C3B530 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
-		56117FAC1DAE829300C3B530 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
-		56117FAD1DAE829300C3B530 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		56117FAE1DAE829300C3B530 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		56117FAF1DAE829300C3B530 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		56117FB01DAE829300C3B530 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
-		56117FB11DAE829300C3B530 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		56117FB21DAE829300C3B530 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
-		56117FB31DAE829300C3B530 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
-		56117FB41DAE829300C3B530 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		56117FB51DAE829300C3B530 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
-		56117FB61DAE829300C3B530 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		56367AA71DB8C56F0095EC0B /* SSPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPickerView.h; sourceTree = "<group>"; };
+		56367AA81DB8C56F0095EC0B /* SSPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPickerView.m; sourceTree = "<group>"; };
+		71875651DE9E0E4B1EAE1F88 /* Pods-SSPickerViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSPickerViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SSPickerViewDemo/Pods-SSPickerViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E08544D91B73F26CEB500F62 /* Pods-SSPickerViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSPickerViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SSPickerViewDemo/Pods-SSPickerViewDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,18 +46,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D5B5FD0F49EBF4A2712EF86 /* libPods-SSPickerViewDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C61B91ED001F81D9D3894FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55EEA3032FE5DB6DAEC63E33 /* libPods-SSPickerViewDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		56117F681DAE820700C3B530 = {
 			isa = PBXGroup;
 			children = (
 				56117F8B1DAE821700C3B530 /* SSPickerView */,
 				56117F731DAE820700C3B530 /* SSPickerViewDemo */,
 				56117F721DAE820700C3B530 /* Products */,
+				B45D4D8B1C996FB7E7975CAE /* Pods */,
+				4C61B91ED001F81D9D3894FC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,7 +83,6 @@
 		56117F731DAE820700C3B530 /* SSPickerViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				56117F9D1DAE829300C3B530 /* Masonry */,
 				56117F961DAE822800C3B530 /* DatePicker */,
 				56117F771DAE820700C3B530 /* AppDelegate.h */,
 				56117F781DAE820700C3B530 /* AppDelegate.m */,
@@ -136,13 +108,8 @@
 		56117F8B1DAE821700C3B530 /* SSPickerView */ = {
 			isa = PBXGroup;
 			children = (
-				56117F8C1DAE821700C3B530 /* LMPickerViewMasco.h */,
-				56117F8D1DAE821700C3B530 /* LSDBasePickerView.h */,
-				56117F8E1DAE821700C3B530 /* LSDBasePickerView.m */,
-				56117F8F1DAE821700C3B530 /* LSDPickerButton.h */,
-				56117F901DAE821700C3B530 /* LSDPickerButton.m */,
-				56117F911DAE821700C3B530 /* LSDPickerContainView.h */,
-				56117F921DAE821700C3B530 /* LSDPickerContainView.m */,
+				56367AA71DB8C56F0095EC0B /* SSPickerView.h */,
+				56367AA81DB8C56F0095EC0B /* SSPickerView.m */,
 			);
 			path = SSPickerView;
 			sourceTree = "<group>";
@@ -158,36 +125,13 @@
 			path = DatePicker;
 			sourceTree = "<group>";
 		};
-		56117F9D1DAE829300C3B530 /* Masonry */ = {
+		B45D4D8B1C996FB7E7975CAE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				56117F9E1DAE829300C3B530 /* MASCompositeConstraint.h */,
-				56117F9F1DAE829300C3B530 /* MASCompositeConstraint.m */,
-				56117FA01DAE829300C3B530 /* MASConstraint+Private.h */,
-				56117FA11DAE829300C3B530 /* MASConstraint.h */,
-				56117FA21DAE829300C3B530 /* MASConstraint.m */,
-				56117FA31DAE829300C3B530 /* MASConstraintMaker.h */,
-				56117FA41DAE829300C3B530 /* MASConstraintMaker.m */,
-				56117FA51DAE829300C3B530 /* MASLayoutConstraint.h */,
-				56117FA61DAE829300C3B530 /* MASLayoutConstraint.m */,
-				56117FA71DAE829300C3B530 /* Masonry.h */,
-				56117FA81DAE829300C3B530 /* MASUtilities.h */,
-				56117FA91DAE829300C3B530 /* MASViewAttribute.h */,
-				56117FAA1DAE829300C3B530 /* MASViewAttribute.m */,
-				56117FAB1DAE829300C3B530 /* MASViewConstraint.h */,
-				56117FAC1DAE829300C3B530 /* MASViewConstraint.m */,
-				56117FAD1DAE829300C3B530 /* NSArray+MASAdditions.h */,
-				56117FAE1DAE829300C3B530 /* NSArray+MASAdditions.m */,
-				56117FAF1DAE829300C3B530 /* NSArray+MASShorthandAdditions.h */,
-				56117FB01DAE829300C3B530 /* NSLayoutConstraint+MASDebugAdditions.h */,
-				56117FB11DAE829300C3B530 /* NSLayoutConstraint+MASDebugAdditions.m */,
-				56117FB21DAE829300C3B530 /* View+MASAdditions.h */,
-				56117FB31DAE829300C3B530 /* View+MASAdditions.m */,
-				56117FB41DAE829300C3B530 /* View+MASShorthandAdditions.h */,
-				56117FB51DAE829300C3B530 /* ViewController+MASAdditions.h */,
-				56117FB61DAE829300C3B530 /* ViewController+MASAdditions.m */,
+				71875651DE9E0E4B1EAE1F88 /* Pods-SSPickerViewDemo.debug.xcconfig */,
+				E08544D91B73F26CEB500F62 /* Pods-SSPickerViewDemo.release.xcconfig */,
 			);
-			path = Masonry;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,9 +141,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56117F881DAE820700C3B530 /* Build configuration list for PBXNativeTarget "SSPickerViewDemo" */;
 			buildPhases = (
+				6F7EF08747237A7C01BFD531 /* [CP] Check Pods Manifest.lock */,
 				56117F6D1DAE820700C3B530 /* Sources */,
 				56117F6E1DAE820700C3B530 /* Frameworks */,
 				56117F6F1DAE820700C3B530 /* Resources */,
+				C38A5F200A93813251B746B9 /* [CP] Embed Pods Frameworks */,
+				9764209D185B466DD88D36C1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +203,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6F7EF08747237A7C01BFD531 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9764209D185B466DD88D36C1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SSPickerViewDemo/Pods-SSPickerViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38A5F200A93813251B746B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SSPickerViewDemo/Pods-SSPickerViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		56117F6D1DAE820700C3B530 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -263,22 +258,10 @@
 			files = (
 				56117F9B1DAE822800C3B530 /* LSDBirthdayPickerView.m in Sources */,
 				56117F9C1DAE822800C3B530 /* LSDTimePickerView.m in Sources */,
-				56117FBD1DAE829300C3B530 /* NSArray+MASAdditions.m in Sources */,
-				56117F941DAE821700C3B530 /* LSDPickerButton.m in Sources */,
 				56117F7C1DAE820700C3B530 /* ViewController.m in Sources */,
-				56117FBF1DAE829300C3B530 /* View+MASAdditions.m in Sources */,
-				56117FBA1DAE829300C3B530 /* MASLayoutConstraint.m in Sources */,
-				56117FB81DAE829300C3B530 /* MASConstraint.m in Sources */,
-				56117FBE1DAE829300C3B530 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				56117FB71DAE829300C3B530 /* MASCompositeConstraint.m in Sources */,
-				56117F931DAE821700C3B530 /* LSDBasePickerView.m in Sources */,
 				56117F791DAE820700C3B530 /* AppDelegate.m in Sources */,
+				56367AA91DB8C56F0095EC0B /* SSPickerView.m in Sources */,
 				56117F761DAE820700C3B530 /* main.m in Sources */,
-				56117FB91DAE829300C3B530 /* MASConstraintMaker.m in Sources */,
-				56117FC01DAE829300C3B530 /* ViewController+MASAdditions.m in Sources */,
-				56117FBC1DAE829300C3B530 /* MASViewConstraint.m in Sources */,
-				56117F951DAE821700C3B530 /* LSDPickerContainView.m in Sources */,
-				56117FBB1DAE829300C3B530 /* MASViewAttribute.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +377,7 @@
 		};
 		56117F891DAE820700C3B530 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71875651DE9E0E4B1EAE1F88 /* Pods-SSPickerViewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SSPickerViewDemo/Info.plist;
@@ -405,6 +389,7 @@
 		};
 		56117F8A1DAE820700C3B530 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E08544D91B73F26CEB500F62 /* Pods-SSPickerViewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SSPickerViewDemo/Info.plist;
@@ -433,6 +418,7 @@
 				56117F8A1DAE820700C3B530 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
