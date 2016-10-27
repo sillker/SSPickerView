@@ -225,7 +225,7 @@ static const CGFloat padding = 50;
     }
     
     if (self.iconView == nil) {
-        self.iconView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:(@"bg_point_picker")]];
+        self.iconView = [[UIImageView alloc] init];
         [self.containsView addSubview:self.iconView];
     }
 }

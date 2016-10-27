@@ -16,8 +16,6 @@
 		56117F9B1DAE822800C3B530 /* LSDBirthdayPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56117F981DAE822800C3B530 /* LSDBirthdayPickerView.m */; };
 		56117F9C1DAE822800C3B530 /* LSDTimePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56117F9A1DAE822800C3B530 /* LSDTimePickerView.m */; };
 		56367AA91DB8C56F0095EC0B /* SSPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56367AA81DB8C56F0095EC0B /* SSPickerView.m */; };
-		56367AAE1DB8C9B20095EC0B /* bg_point_picker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56367AAC1DB8C9B20095EC0B /* bg_point_picker@2x.png */; };
-		56367AAF1DB8C9B20095EC0B /* bg_point_picker@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56367AAD1DB8C9B20095EC0B /* bg_point_picker@3x.png */; };
 		8D5B5FD0F49EBF4A2712EF86 /* libPods-SSPickerViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55EEA3032FE5DB6DAEC63E33 /* libPods-SSPickerViewDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -39,8 +37,6 @@
 		56117F9A1DAE822800C3B530 /* LSDTimePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDTimePickerView.m; sourceTree = "<group>"; };
 		56367AA71DB8C56F0095EC0B /* SSPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPickerView.h; sourceTree = "<group>"; };
 		56367AA81DB8C56F0095EC0B /* SSPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPickerView.m; sourceTree = "<group>"; };
-		56367AAC1DB8C9B20095EC0B /* bg_point_picker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_point_picker@2x.png"; sourceTree = "<group>"; };
-		56367AAD1DB8C9B20095EC0B /* bg_point_picker@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_point_picker@3x.png"; sourceTree = "<group>"; };
 		71875651DE9E0E4B1EAE1F88 /* Pods-SSPickerViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSPickerViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SSPickerViewDemo/Pods-SSPickerViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		E08544D91B73F26CEB500F62 /* Pods-SSPickerViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSPickerViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SSPickerViewDemo/Pods-SSPickerViewDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -114,8 +110,6 @@
 			children = (
 				56367AA71DB8C56F0095EC0B /* SSPickerView.h */,
 				56367AA81DB8C56F0095EC0B /* SSPickerView.m */,
-				56367AAC1DB8C9B20095EC0B /* bg_point_picker@2x.png */,
-				56367AAD1DB8C9B20095EC0B /* bg_point_picker@3x.png */,
 			);
 			path = SSPickerView;
 			sourceTree = "<group>";
@@ -203,9 +197,7 @@
 			files = (
 				56117F841DAE820700C3B530 /* LaunchScreen.storyboard in Resources */,
 				56117F811DAE820700C3B530 /* Assets.xcassets in Resources */,
-				56367AAE1DB8C9B20095EC0B /* bg_point_picker@2x.png in Resources */,
 				56117F7F1DAE820700C3B530 /* Main.storyboard in Resources */,
-				56367AAF1DB8C9B20095EC0B /* bg_point_picker@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
