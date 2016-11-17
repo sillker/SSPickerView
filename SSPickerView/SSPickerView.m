@@ -333,13 +333,18 @@ static const CGFloat padding = 50;
 - (void)pickerViewResult:(PickerViewResults)pickerViewBlock{
     _pickerViewBlock = pickerViewBlock;
 }
+- (void)pickerViewTotleResult:(PickerViewTotleResults)pickerViewModifyBlock
+{
+    _pickerViewModifyBlock = pickerViewModifyBlock;
+}
 /**
  *  处理pickerview选择之后的结果
  *  结果为string 或者 string-string-string
  */
 - (void)handlePickerContentResult
 {
-    NSString *fullString = [NSString string];
+    NSString *fullString  = [NSString string];
+    NSString *indexString = [NSString string];
     NSInteger count = [self.componentArray count];
     for (NSInteger i = 0; i < count; i++) {
         NSArray *selArray = [self.componentArray objectAtIndex:i];
@@ -348,12 +353,15 @@ static const CGFloat padding = 50;
             NSString *selString = [selArray objectAtIndex:index];
             if (i == 0) {
                 fullString = [fullString stringByAppendingString:selString];
+                indexString = [indexString stringByAppendingString:[NSString stringWithFormat:@"%zd",index]];
             }else{
                 NSString *temp = [NSString stringWithFormat:@"-%@",selString];
                 fullString = [fullString stringByAppendingString:temp];
+                indexString = [indexString stringByAppendingString:[NSString stringWithFormat:@"-%zd",index]];
             }
         }else{
-            fullString = @"";
+            fullString  = @"";
+            indexString = @"";
             NSLog(@"===>>>pickerview所选竟然为nil");
         }
     }
@@ -362,6 +370,9 @@ static const CGFloat padding = 50;
     }
     if (_pickerViewBlock) {
         self.pickerViewBlock(fullString,self);
+    }
+    if (_pickerViewModifyBlock) {
+        self.pickerViewModifyBlock(fullString,indexString,self);
     }
 }
 

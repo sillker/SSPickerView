@@ -10,6 +10,7 @@
 
 @class SSPickerView;
 typedef void(^PickerViewResults) (NSString *text,SSPickerView *pickerView);
+typedef void(^PickerViewTotleResults) (NSString *text,NSString *selectIndex,SSPickerView *pickerView);
 
 @protocol SSPickerViewDelegate <NSObject>
 @optional
@@ -45,6 +46,7 @@ typedef void(^PickerViewResults) (NSString *text,SSPickerView *pickerView);
 @property (nonatomic,strong) NSArray <NSArray <NSString *>*>*contentes;
 /** block */
 @property (nonatomic, copy) PickerViewResults pickerViewBlock;
+@property (nonatomic, copy) PickerViewTotleResults pickerViewModifyBlock;
 @property (nonatomic,assign) id<SSPickerViewDelegate> delegate;
 
 
@@ -58,5 +60,6 @@ typedef void(^PickerViewResults) (NSString *text,SSPickerView *pickerView);
  *  pickerView回调
  */
 - (void)pickerViewResult:(PickerViewResults)pickerViewBlock;
+- (void)pickerViewTotleResult:(PickerViewTotleResults)pickerViewModifyBlock;
 
 @end
