@@ -8,7 +8,7 @@
 
 #import "SSPickerView.h"
 #import <Masonry/Masonry.h>
-static const CGFloat padding = 50;
+static const CGFloat padding = 50.0f;
 
 @interface SSPickerButton:UIButton
 
@@ -62,7 +62,7 @@ static const CGFloat padding = 50;
 /** 分割线 */
 @property (nonatomic,strong) UIView *separateline;
 /** delegate */
-@property (nonatomic,assign) id<SSPickerContainViewDelegate> delegate;
+@property (nonatomic,weak) id<SSPickerContainViewDelegate> delegate;
 @end
 @implementation SSPickerContainView
 
@@ -166,6 +166,11 @@ static const CGFloat padding = 50;
 }
 
 @end
+
+
+
+
+
 
 @interface SSPickerView() <SSPickerContainViewDelegate>
 /** 背景按钮 */
@@ -326,7 +331,6 @@ static const CGFloat padding = 50;
     }completion:^(BOOL finished) {
         self.hidden = YES;
         [self.containsView removeFromSuperview];
-        self.containsView = nil;
         [self removeFromSuperview];
     }];
 }

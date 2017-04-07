@@ -43,11 +43,11 @@ typedef void(^PickerViewTotleResults) (NSString *text,NSString *selectIndex,SSPi
 /** 标题 */
 @property (nonatomic,copy) NSString *title;
 /** 内容-数组 */
-@property (nonatomic,strong) NSArray <NSArray <NSString *>*>*contentes;
+@property (nonatomic,copy) NSArray <NSArray <NSString *>*>*contentes;
 /** block */
 @property (nonatomic, copy) PickerViewResults pickerViewBlock;
 @property (nonatomic, copy) PickerViewTotleResults pickerViewModifyBlock;
-@property (nonatomic,assign) id<SSPickerViewDelegate> delegate;
+@property (nonatomic, weak) id<SSPickerViewDelegate> delegate;
 
 
 #pragma mark - 方法
