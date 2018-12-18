@@ -10,6 +10,7 @@
 #import "LSDBirthdayPickerView.h"
 #import "LSDTimePickerView.h"
 
+
 @interface ViewController ()
 @property (nonatomic, strong) UIButton *selectBtn;
 @property (nonatomic, strong) UILabel *showLabel;
@@ -36,19 +37,21 @@
 
 - (void)clickSelectBtn:(UIButton *)sender
 {
+    __weak typeof(self) weaksekf = self;
     if (self.select)
     {
-        __weak typeof(self) weaksekf = self;
         LSDBirthdayPickerView *bir = [LSDBirthdayPickerView pickerView];
-        [bir pickerViewResult:^(NSString *text, SSPickerView *pickerView) {
+        [bir pickerViewResult:^(NSString *text, NSString *selectIndex, SSPickerView *pickerView) {
             weaksekf.showLabel.text = text;
         }];
     }
     else
     {
-        __weak typeof(self) weaksekf = self;
-        LSDTimePickerView *time = [LSDTimePickerView pickerView];
-        [time pickerViewResult:^(NSString *text, SSPickerView *pickerView) {
+//        LSDTimePickerView *time = [LSDTimePickerView pickerView];
+//        time.pickerViewBlock = ^(NSString *text, NSString *selectIndex, SSPickerView *pickerView) {
+//            weaksekf.showLabel.text = text;
+//        };
+        [SSPickerView pickerViewWithTitle:@"hello" contentes:@[@[@"1",@"2"],@[@"3",@"4"]] Finish:^(NSString *text, NSString *selectIndex, SSPickerView *pickerView) {
             weaksekf.showLabel.text = text;
         }];
     }
